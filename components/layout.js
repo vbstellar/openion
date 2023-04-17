@@ -3,9 +3,9 @@ import Footer from "./Footer";
 
 export default function Layout({ children }) {
   return (
-    <div className="mx-6 md:max-w-2xl md:mx-auto font-poppins h-screen">
+    <div className="mx-6 md:max-w-full md:mx-auto font-poppins h-screen">
       <Nav />
-      <main className="mb-auto">{children}</main>
+      <main className="mb-auto md:max-w-2xl md:mx-auto">{children}</main>
       <Footer />
     </div>
   );

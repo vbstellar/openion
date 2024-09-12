@@ -9,7 +9,7 @@ export default function Footer() {
           href="https://vbstellar.vercel.app/"
         >
           {" "}
-          Vishu
+          Ashish Rana
         </a>{" "}
       </div>
     </div>
